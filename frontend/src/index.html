@@ -5,65 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <script>
-      function includeHTMLSnippet() {
-        // Traverse the collection of all
-        // HTML elements
-        id = document.getElementsByTagName("*");
-        for (i = 0; i < id.length; i++) {
-          element = id[i];
-
-          // Search for elements with
-          // specific attributes
-          file = element.getAttribute("GFG-include-html-snippet");
-
-          if (file) {
-            // Create an HTTP request with
-            // the attribute value as the
-            // file name
-            xmlRequest = new XMLHttpRequest();
-            xmlRequest.onreadystatechange = function () {
-              if (this.readyState == 4) {
-                if (this.status == 200) {
-                  element.innerHTML = this.responseText;
-                }
-
-                if (this.status == 404) {
-                  element.innerHTML = "Page not found.";
-                }
-
-                // Delete the attribute and
-                // call this function again.
-                element.removeAttribute("GFG-include-html-snippet");
-
-                includeHTMLSnippet();
-              }
-            };
-            xmlRequest.open("GET", file, true);
-            xmlRequest.send();
-            return; // Exit function.
-          }
-        }
-      }
-    </script>
-    <script>
-      includeHTMLSnippet();
-    </script>
+    <script src="./script.js"></script>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="./components/pages/recipe-of-the-day/recipe-of-the-day.html"
-          >Rezept des Tages</a
-        >
-        <a href="./components/pages/contact/contact.html">Kontakt</a>
-        <a href="./components/pages/impressum/impressum.html">Impressum</a>
-      </nav>
-    </header>
+    <header w3-include-html="./components/partials/nav/nav.html"></header>
 
-    <a href="./components/pages/hanbit-recipe/hanbit-recipte.html">Bibimbap</a>
-
-    <div include-html-snippet="other.html"></div>
-    <div include-html-snippet="./gfg.html"></div>
+    <a href="./components/pages/hanbit-recipe/hanbit-recipe.html">Bibimbap</a>
+    <script>
+      includeHTML();
+    </script>
   </body>
 </html>
