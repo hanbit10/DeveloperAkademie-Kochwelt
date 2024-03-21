@@ -1,42 +1,61 @@
 .contact-us-container,
-.contact-container,
-.adresse-container {
+.contact-container {
+  width: 50%;
   background-color: rgb(181, 240, 240);
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
+body {
+  align-items: center;
+}
+
+.contact-container {
+  padding-left: min(120px, 10%);
+}
+
+.contact-us-container {
+  padding-right: min(120px, 10%);
+}
+
+.main-container {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
 form {
-  background-color: rgb(107, 212, 212);
+  /* background-color: rgb(107, 212, 212); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 100%;
   min-width: 170px;
 }
 
 label {
   width: 100%;
   max-width: 500px;
-  margin-top: 20px;
+  margin-top: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
 input {
-  padding: 8px;
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 5px;
 }
 
 textarea {
-  padding: 8px;
+  padding: 16px;
 }
 
 span {
-  width: min(400px, 80%);
+  width: 100%;
   background-color: antiquewhite;
 }
 
@@ -60,7 +79,7 @@ button {
 
 iframe {
   margin-top: 20px;
-  width: 50%;
+  width: 90%;
   max-width: 450px;
   aspect-ratio: 1/1;
   border: 0;
