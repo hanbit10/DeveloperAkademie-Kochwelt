@@ -1,22 +1,23 @@
+html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin: 0;
-}
-
-nav {
-  background-color: aqua;
-}
-
-h1,
-h2,
-h3 {
-  font-size: 30px;
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 h1 {
   font-size: 36px;
 }
-
-
 
 button {
   background-color: rgb(0, 128, 0);
@@ -25,4 +26,147 @@ button {
   font-size: 20px;
   border: 0;
   padding: 16px;
+}
+
+header {
+  /*  background-color: pink;  */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.2);
+}
+
+.header {
+  /* background-color: aqua; */
+  width: 88%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header img {
+  width: 32%;
+  padding: 0.8rem 0.8rem 0.8rem 0rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  gap: 1rem;
+}
+
+nav a {
+  color: #008000;
+  font-weight: bold;
+  font-size: small;
+  text-decoration: none;
+  padding-bottom: 0.3rem;
+  border-bottom: 0.24rem solid #ffffff;
+  transition: 0.24s;
+}
+
+nav a:hover {
+  border-bottom: 0.24rem solid #008000;
+  padding-bottom: 0.3rem;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-1,
+.main-2,
+.main-3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-1 {
+  padding: 24px 0px 24px 0px;
+}
+
+.main-2 {
+  background-color: rgb(215, 214, 214);
+}
+
+.main-3 {
+  background-color: rgb(251, 155, 225);
+}
+
+.content-1,
+.content-2,
+.content-3 {
+  background-color: rgb(79, 135, 240);
+  width: 88%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-1 {
+  gap: 0.24rem;
+  justify-content: space-between;
+}
+
+.content-1 img {
+  width: 40%;
+  border-radius: 4%;
+}
+
+.text-1 {
+  margin: 0;
+  padding: 0;
+  width: 55%;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-1 h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.content-2 {
+  flex-direction: column;
+}
+
+.link-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.link-left,
+.link-center,
+.link-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.link-left img,
+.link-center img,
+.link-right img {
+  width: 16rem;
+  height: 16rem;
+  object-fit: cover;
+  border-radius: 4%;
+}
+
+.content-3 img {
+  width: 25%;
+}
+
+footer {
+  background-color: grey;
+  margin-top: auto;
+}
+
+.footer {
+  width: 88%;
 }

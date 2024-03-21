@@ -1,32 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
     <script src="./script.js"></script>
+    <link rel="icon" type="image/x-icon" href="../assets/img/logo_small.png" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Kochwelt</title>
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="./index.html">Home</a>
-        <ul>
-          <li>
-            <a
-              href="./components/pages/recipe-of-the-day/recipe-of-the-day.html"
-              >Rezept des Tages</a
-            >
-            <a href="./components/pages/contact/contact.html">Kontakt</a>
-            <a href="./components/pages/impressum/impressum.html">Impressum</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
 
-    <a href="./components/pages/hanbit-recipe/hanbit-recipe.html">Bibimbap</a>
-    <script>
-      includeHTML();
-    </script>
+  <body onload="includeHTML()">
+    <header w3-include-html="./components/templates/header.html"></header>
+    <div class="main" w3-include-html="./components/templates/main.html"></div>
+
+    <footer w3-include-html="./components/templates/footer.html"></footer>
   </body>
 </html>
