@@ -1,3 +1,28 @@
 body {
   margin: 0;
 }
+
+nav {
+  background-color: aqua;
+}
+
+h1,
+h2,
+h3 {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+
+
+button {
+  background-color: rgb(0, 128, 0);
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border: 0;
+  padding: 16px;
+}

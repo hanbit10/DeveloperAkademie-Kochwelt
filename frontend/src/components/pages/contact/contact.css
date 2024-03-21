@@ -1,0 +1,72 @@
+.contact-us-container,
+.contact-container,
+.adresse-container {
+  background-color: rgb(181, 240, 240);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  background-color: rgb(107, 212, 212);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  min-width: 170px;
+}
+
+label {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+input {
+  padding: 8px;
+}
+
+textarea {
+  padding: 8px;
+}
+
+span {
+  width: min(400px, 80%);
+  background-color: antiquewhite;
+}
+
+.contact-line {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+}
+
+.contact-line-item {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin: 24px;
+}
+
+iframe {
+  margin-top: 20px;
+  width: 50%;
+  max-width: 450px;
+  aspect-ratio: 1/1;
+  border: 0;
+}
+
+.adresse-information {
+  display: flex;
+  justify-content: center;
+}
