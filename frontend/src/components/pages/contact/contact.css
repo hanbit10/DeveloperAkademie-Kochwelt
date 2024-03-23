@@ -1,7 +1,7 @@
 .contact-us-container,
 .contact-container {
   width: 50%;
-  background-color: rgb(181, 240, 240);
+  /* background-color: rgb(181, 240, 240); */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,16 +11,9 @@ body {
   align-items: center;
 }
 
-.contact-container {
-  padding-left: min(120px, 10%);
-}
-
-.contact-us-container {
-  padding-right: min(120px, 10%);
-}
-
 .main-container {
-  width: 90%;
+  width: 100%;
+  max-width: 1440px;
   display: flex;
   flex-direction: row;
 }
@@ -36,6 +29,7 @@ form {
 }
 
 label {
+  font-size: 18px;
   width: 100%;
   max-width: 500px;
   margin-top: 24px;
@@ -48,14 +42,19 @@ input {
   margin-top: 8px;
   padding: 12px;
   border-radius: 5px;
+  font-size: 18px;
 }
 
 textarea {
-  padding: 16px;
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 18px;
 }
 
 span {
-  width: 100%;
+  font-size: 18px;
+  width: 90%;
   background-color: antiquewhite;
 }
 
@@ -88,4 +87,15 @@ iframe {
 .adresse-information {
   display: flex;
   justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .main-container {
+    flex-direction: column;
+  }
+
+  .contact-us-container,
+  .contact-container {
+    width: 100%;
+  }
 }

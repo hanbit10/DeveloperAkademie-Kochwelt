@@ -20,20 +20,26 @@
         <form method="POST" onsubmit="sendMail(event)">
           <label for="fname">
             Vorname
-            <input id="fname" name="firstName" type="text" />
+            <input id="fname" name="firstName" type="text" required />
           </label>
           <label for="lname">
             Nachname
-            <input id="lname" name="lastName" type="text" />
+            <input id="lname" name="lastName" type="text" required />
           </label>
 
           <label for="email">
             Dein Email
-            <input id="email" type="email" name="email" />
+            <input id="email" type="email" name="email" required />
           </label>
           <label>
             Deine Nachricht
-            <textarea name="message" id="" cols="30" rows="10"></textarea>
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="10"
+              required
+            ></textarea>
           </label>
 
           <button type="submit">Nachricht Absenden</button>
