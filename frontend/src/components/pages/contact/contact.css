@@ -7,15 +7,21 @@
   align-items: center;
 }
 
-body {
-  align-items: center;
+.contact-container {
+  padding-left: min(160px, 10%);
+}
+
+.contact-us-container {
+  padding-right: min(160px, 10%);
 }
 
 .main-container {
-  width: 100%;
-  max-width: 1440px;
+  min-height: 100vh;
   display: flex;
-  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
 }
 
 form {
@@ -55,7 +61,7 @@ textarea {
 span {
   font-size: 18px;
   width: 90%;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
 }
 
 .contact-line {
@@ -91,11 +97,15 @@ iframe {
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .main-container {
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 
   .contact-us-container,
   .contact-container {
     width: 100%;
+
+    padding-left: min(32px, 10%);
+
+    padding-right: min(32px, 10%);
   }
 }
