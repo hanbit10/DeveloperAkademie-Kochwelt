@@ -20,8 +20,14 @@
   display: flex;
 }
 
-h1 {
+h2 {
   text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.mt-0 {
+  margin-top: 0;
 }
 
 form {
@@ -61,6 +67,7 @@ textarea {
 span {
   font-size: 18px;
   width: 90%;
+  text-align: center;
   /* background-color: antiquewhite; */
 }
 
@@ -83,11 +90,12 @@ button {
 }
 
 iframe {
-  margin-top: 20px;
   width: 90%;
   max-width: 450px;
   aspect-ratio: 1/1;
   border: 0;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .adresse-information {
@@ -95,12 +103,15 @@ iframe {
   justify-content: center;
 }
 
+span {
+  margin-bottom: 32px;
+}
+
 @media screen and (max-width: 767px) {
-  
 }
 
 /*bis 320px beachten*/
-@media screen and (min-width:320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   .main-container {
     flex-direction: column-reverse;
   }
@@ -112,5 +123,12 @@ iframe {
     padding-left: min(32px, 10%);
 
     padding-right: min(32px, 10%);
+  }
+
+  h2 {
+    margin-top: 32px;
+  }
+  span {
+    margin-bottom: 16px;
   }
 }

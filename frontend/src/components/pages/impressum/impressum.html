@@ -4,9 +4,30 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="/frontend/src/script.js"></script>
+    <link rel="stylesheet" href="/frontend/src/style.css" />
+    <style>
+      section {
+        padding-left: min(160px, 10%);
+      }
+    </style>
   </head>
   <body>
-    <a href="../../../index.html">Home</a>
-    This is Impressum
+    <header
+      w3-include-html="/frontend/src/components/templates/header.html"
+    ></header>
+    <section
+      w3-include-html="/frontend/src/components/templates/impressum.html"
+    ></section>
+    <section
+      w3-include-html="/frontend/src/components/templates/datenschutz.html"
+    ></section>
+    <footer
+      w3-include-html="/frontend/src/components/templates/footer.html"
+    ></footer>
   </body>
+
+  <script>
+    includeHTML();
+  </script>
 </html>

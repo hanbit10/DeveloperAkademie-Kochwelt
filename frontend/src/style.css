@@ -25,7 +25,8 @@ h2 {
   font-size: 1.2rem;
 }
 
-p, span {
+p,
+span {
   font-size: 0.8rem;
   margin-bottom: 3.2rem;
 }
@@ -230,6 +231,7 @@ footer {
   width: 80%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 24px 0px;
   color: white;
 }
@@ -239,10 +241,12 @@ footer {
   color: white;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .footer-logo img {
-  width: 32%;
+  width: 100%;
+  max-width: 150px;
   filter: invert(1);
 }
 
@@ -270,7 +274,8 @@ footer {
 }
 
 .social-links {
-  width: 30%;
+  width: 100%;
+  max-width: 250px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -278,17 +283,17 @@ footer {
 }
 
 .social-links img {
-  width: 32px;
-  height: 32px;
+  width: 100%;
+  max-width: 32px;
+  min-width: 28px;
+  aspect-ratio: 1/1;
 }
 
-
 @media screen and (max-width: 767px) {
-
 }
 
 /*bis 320px beachten*/
-@media screen and (min-width:320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 1.5rem;
   }
@@ -297,7 +302,19 @@ footer {
     font-size: 1rem;
   }
 
-  p, span {
+  p,
+  span {
     font-size: 0.6rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  .social-links {
+    margin-top: 16px;
+  }
+  .footer-links {
+    margin-top: 16px;
   }
 }

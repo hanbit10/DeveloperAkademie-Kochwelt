@@ -2,7 +2,7 @@ function sendMail(event) {
   event.preventDefault();
   const data = new FormData(event.target);
 
-  fetch("https://formspree.io/f/xeqyzwkw", {
+  fetch("https://formspree.io/f/xbjnaebk", {
     method: "POST",
     body: new FormData(event.target),
     headers: {
