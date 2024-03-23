@@ -95,7 +95,12 @@ iframe {
   justify-content: center;
 }
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 767px) {
+  
+}
+
+/*bis 320px beachten*/
+@media screen and (min-width:320px) and (max-width: 480px) {
   .main-container {
     flex-direction: column-reverse;
   }

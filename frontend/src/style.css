@@ -25,7 +25,7 @@ h2 {
   font-size: 1.2rem;
 }
 
-p {
+p, span {
   font-size: 0.8rem;
   margin-bottom: 3.2rem;
 }
@@ -280,4 +280,24 @@ footer {
 .social-links img {
   width: 32px;
   height: 32px;
+}
+
+
+@media screen and (max-width: 767px) {
+
+}
+
+/*bis 320px beachten*/
+@media screen and (min-width:320px) and (max-width: 480px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1rem;
+  }
+
+  p, span {
+    font-size: 0.6rem;
+  }
 }
