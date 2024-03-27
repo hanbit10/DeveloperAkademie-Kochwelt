@@ -1,0 +1,86 @@
+#pic_dish {
+    height: 20vh;
+    width: 100%;
+    background-image: url("/frontend/assets/img/salad.jpg");
+    object-fit: cover;
+    background-size: cover;
+    border-radius: 8px;
+    background-position: center;
+    margin: 16px 0px 16px 0px;
+}
+
+span {
+    font-size: 16px;
+}
+h1{
+    margin:24px 0px 24px 0px;
+}
+#portion {
+    padding: 4px;
+    font-size: 16px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td,
+table th {
+    padding: 8px;
+    border-radius: 8px;
+
+}
+
+table tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+table tr:hover {
+    background-color: #f2f2f2f5;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #04AA6D;
+    color: white;
+}
+
+.trivial_dish {
+    display: flex;
+    padding-bottom: 16px;
+}
+
+.trivial_dish div {
+    background-color: #f1f1f1;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 4px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+table {
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+}
+
+.creator {
+    display: flex;
+}
+
+#creator_pic {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-image: url("/frontend/assets/img/profile.png");
+    object-fit: cover;
+    background-size: cover;
+}
+
+#main {
+    padding: 24px 0px 24px 0px;
+}

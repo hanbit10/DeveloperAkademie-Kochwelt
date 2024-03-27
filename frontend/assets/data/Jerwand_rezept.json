@@ -1,0 +1,38 @@
+{
+    "dish_name": "Armenische Dolma (Gefüllte Weinblätter)",
+    "pic_dish": "./img/salad.jpg",
+    "cooking_time1": "45 Minuten",
+    "cooking_time2": "45 Minuten",
+    "cooking_difficulty": "Mittel",
+    "rezept_date": "24.03.2024",
+    "zutaten": [
+        "Weinblätter",
+        "Rinderhackfleisch",
+        "Zwiebel",
+        "Knoblauch",
+        "Langkornreis",
+        "Tomatenmark",
+        "Frische Kräuter (Petersilie, Koriander, Dill)",
+        "Zitrone",
+        "Salz",
+        "Pfeffer",
+        "Olivenöl"
+    ],
+    "mengen": [
+        "30 Blätter",
+        "500g",
+        "1 große",
+        "2 Zehen",
+        "100g",
+        "2 EL",
+        "Je 1 Handvoll",
+        "1",
+        "Nach Geschmack",
+        "Nach Geschmack",
+        "2 EL"
+    ],
+    "total_cooking_time": "1 Stunde 30 Minuten",
+    "preparation_instructions": "Weinblätter in heißem Wasser blanchieren und abtropfen lassen. Zwiebeln und Knoblauch fein hacken und in Olivenöl andünsten. Hackfleisch hinzufügen und anbraten. Gekochten Reis, Tomatenmark und fein gehackte Kräuter hinzugeben, mit Salz und Pfeffer würzen. Die Mischung kurz kochen lassen und vom Herd nehmen. Jedes Weinblatt mit der Fleisch-Reis-Mischung füllen und zu kleinen Paketen rollen. Die Dolma-Pakete in einen Topf schichten, mit Zitronensaft beträufeln und mit Wasser bedecken. Die Dolma bei niedriger Hitze etwa 40 Minuten köcheln lassen. Warm oder kalt servieren.",
+    "creator_pic": "./img/profile.png",
+    "creator_name": "Jerwand Mirumjan"
+}

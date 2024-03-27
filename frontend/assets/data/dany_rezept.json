@@ -1,0 +1,35 @@
+{
+  "dish_name": "Chicken-Wings",
+  "pic_dish": "./img/salad.jpg",
+  "cooking_time1": "60 Minuten",
+  "cooking_time2": "60 Minuten",
+  "cooking_difficulty": "Einfach",
+  "rezept_date": "24.03.2024",
+  "zutaten": [
+    "Bio-Chickenwings",
+    "Eßlöffel Öl",
+    "Teelöffel Salz",
+    "Pfeffer",
+    "Currypulver, mild",
+    "Paprikapulver, edelsüß",
+    "Kreuzkümmel",
+    "EL Sojasoße",
+    "EL Worcestershiresauce",
+    "Zum Dippen Sauce nach Wahl"
+  ],
+  "mengen": [
+    "8",
+    "2",
+    "1/2",
+    "nach Geschmack",
+    "nach Geschmack",
+    "nach Geschmack",
+    "nach Geschmack",
+    "2",
+    "1"
+  ],
+  "total_cooking_time": "60 Minuten plus 1 Tag (bzw 2 Stunden) zum Marinieren",
+  "preparation_instructions": "Am besten schmecken die Wings wenn man sie bereits einen Tag, oder aber mindestens 2 Stunden vorher mariniert. Die Chickenwings, wenn nicht bereits geschehen, mit einem Messer in Flügel und Keule teilen, dann zu Marinieren in eine passend große Schüssel geben. Alle Gewürze und das Öl über die Wings geben und gut durchmischen, die Mengen der Gewürze können, nach Geschmack und Vorliebe, gern verändert werden. Den Backofen auf ca. 200°C oder höher, relativ heiß, vorheizen. Ein Backblech mit Backpapier bedecken und die Wings, mit der Hautseite nach oben, geleichmäßig auf dem Blech verteilen. Das Blech dann auf mittlerer Schiene in den Ofen schieben, ca 10 min bei ca. 200-180°C backen dann die Hitze auf ca. 160°C etwas reduzieren und die Wings etwa 30 min weiterbacken. Die Wings brauchen nicht gewendet werden, sie sind fertig wenn sich die Knochen leicht aus dem Fleisch lösen lassen und die Haut schön braun und knusprig ist.",
+  "creator_pic": "./img/profile.png",
+  "creator_name": "Dany"
+}
