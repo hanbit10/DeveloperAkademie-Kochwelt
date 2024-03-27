@@ -1,13 +1,29 @@
 <div class="header">
-  <a href="/frontend/src/index.html" class="backToIndex" ><img src="/frontend/assets/img/logo.png" alt=""/></a>
+  <a href="/frontend/src/index.html" class="backToIndex"><img src="/frontend/assets/img/logo.png" alt="" /></a>
   <nav>
     <a href="/frontend/src/index.html">Start</a>
-    <a href="/frontend/src/components/pages/recipe/recipe.html"
-      >Rezept des Tages</a
-    >
+    <a href="/frontend/src/components/pages/recipe/recipe.html">Rezept des Tages</a>
     <a href="/frontend/src/components/pages/contact/contact.html">Kontakt</a>
-    <a href="/frontend/src/components/pages/impressum/impressum.html"
-      >Impressum</a
-    >
+    <a href="/frontend/src/components/pages/impressum/impressum.html">Impressum</a>
   </nav>
+
+
+  <div class="nav-query">
+    <a href="" onclick="show_hide('burger')">
+    <svg class="burger" viewBox="0 0 100 100">
+      <rect class="line-top" x="10" y="25" rx="5"></rect>
+      <rect class="line-middle" x="10" y="45" rx="5"></rect>
+      <rect class="line-bottom" x="10" y="65" rx="5"></rect>
+    </svg>
+  </a>
+    <div class="nav-query-a  d-none"  id="burger" >
+    <a href="/frontend/src/index.html">Start</a>
+    <a href="/frontend/src/components/pages/recipe/recipe.html">Rezept des Tages</a>
+    <a href="/frontend/src/components/pages/contact/contact.html">Kontakt</a>
+    <a href="/frontend/src/components/pages/impressum/impressum.html">Impressum</a>
+  </div>
+
+  </div>
+
+
 </div>
