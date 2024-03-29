@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Raleway;
+  src: url(/frontend/assets/fonts/Raleway-Regular.ttf);
+}
+
 html {
   height: 100%;
   scroll-behavior: smooth;
@@ -11,7 +16,7 @@ body {
   min-height: 100%;
   margin: 0px;
   padding: 0px;
-  font-family: "Raleway", sans-serif;
+  font-family: Raleway, sans-serif;
 }
 
 h1 {
@@ -54,7 +59,6 @@ header {
   width: 80%;
   display: flex;
   justify-content: space-between;
-
 }
 
 /* .backToIndex {
@@ -300,9 +304,6 @@ footer {
   flex-direction: column;
   align-items: end;
   gap: 0.8rem;
-
-
-
 }
 
 .nav-query-a {
@@ -314,20 +315,17 @@ footer {
   display: none;
 }
 
-
 .nav-query-a a {
   color: black;
   font-weight: bold;
   font-size: small;
   text-decoration: none;
-
 }
 
 .nav-query-a a:hover {
   color: #008000;
   padding-right: 0.56rem;
 }
-
 
 .burger {
   width: 50px;
@@ -341,18 +339,14 @@ footer {
 .line-bottom {
   width: 80%;
   height: 10%;
-
-
 }
 
 @media (1200px < width) {
-
   .content-1,
   .content-2,
   .content-3 {
     /* background-color: rgb(79, 135, 240);  */
     width: 50%;
-
   }
 
   .nav-query {
@@ -364,29 +358,21 @@ footer {
   nav {
     display: none;
   }
-
-
-
-
 }
 
 @media (width >=950px) {
   .nav-query {
     display: none;
   }
-
 }
 
 @media (width <=560px) {
-
   h2 {
     text-align: center;
-
   }
 
   .header img {
     width: 72%;
-
   }
 
   .content-1,
@@ -401,7 +387,6 @@ footer {
 
   .content-1 img {
     width: 50%;
-
   }
 
   .text-1 {
@@ -436,15 +421,12 @@ footer {
     margin: 24px 0px;
     gap: 0.24rem;
   }
-
 }
 
 @media (480px <=width <=800px) {
   nav {
     display: none;
   }
-
-
 }
 
 /*bis 320px beachten*/
