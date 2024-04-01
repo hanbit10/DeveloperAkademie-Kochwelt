@@ -4,7 +4,7 @@ var creators = self.crator;
 function load_dish(crator) {
     var creator = creator;
     load_element(dish_name, crator);
-    // load_element_pic(pic_dish)
+    load_element_pic(pic_dish, crator)
     load_element(cooking_time1, crator);
     load_element(cooking_difficulty, crator);
     load_element(rezept_date, crator);
@@ -73,7 +73,10 @@ async function load_element_table(crator) {
 
 
 // funktion zum laden der Bilder
-function load_element_pic() {
+async function load_element_pic(element,crator) {
+    let idName = element.id;
+    let url = await load_rezept(element.id, crator);
+    document.querySelector("#pic_dish").style.backgroundImage = "url('"+url+"')"
 }
 // code von der 
 async function includeHTML() {

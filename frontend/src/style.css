@@ -8,6 +8,27 @@ html {
   scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+  width: 0.6em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: lightgrey;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 16em;
+  border: 3px solid lightgrey;
+}
+
+::-webkit-scrollbar-thumb:active,
+::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+  border-radius: 16em;
+  border: 1px solid lightgrey;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -43,6 +64,7 @@ button {
   font-size: 20px;
   border: 0;
   padding: 16px;
+  cursor: pointer;
 }
 
 header {
@@ -328,6 +350,7 @@ footer {
   padding-right: 0.56rem;
 }
 
+/*  ::::::::::   burger menu   :::::::::::::     */
 .burger {
   background: transparent;
   width: 50px;
@@ -357,6 +380,7 @@ footer {
   transition: 0.4s;
   transform-origin: center;
 }
+
 .burger-button:hover :is(.top, .bottom) {
   y: 45;
 }
@@ -364,6 +388,7 @@ footer {
 .burger-button[aria-expanded="true"] .top {
   rotate: 45deg;
 }
+
 .burger-button[aria-expanded="true"] .top {
   opacity: 0;
 }
