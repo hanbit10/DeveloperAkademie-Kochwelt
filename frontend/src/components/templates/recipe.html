@@ -31,18 +31,15 @@
       <td>
         <!-- Input für Portionen und zum berechnen  -->
         <div>
-          <span>Zutaten für </span
-          ><input type="number" min="1" max="8" placeholder="1" />
-          <button
-            id="portion"
-            onclick="load_dish('/frontend/assets/data/dany_rezept.json')"
-          >
+          <span>Zutaten für </span><input  type="number" min="1" max="8" value="1" id="portionen" oninput="validity.valid||(value='');" required/>
+          <button id="portion" onclick="load_element_table(creators)">
             Portionen
           </button>
         </div>
       </td>
     </tr>
-
+  </tbody>
+  <tbody id="table2">
     <tr>
       <td>2 Eier</td>
     </tr>
@@ -56,12 +53,10 @@
     <div id="cooking_time2">cooking_time</div>
     <div id="total_cooking_time">total_cooking_time</div>
   </div>
-  <span id="preparation_instructions"
-    >Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus
+  <span id="preparation_instructions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus
     excepturi dicta molestias qui modi, tenetur, laudantium repellat quidem
     voluptate, ad porro recusandae deserunt esse quibusdam illo. Quisquam,
-    exercitationem veritatis.</span
-  >
+    exercitationem veritatis.</span>
 </div>
 
 <!-- Angaben und Bildem vom Crator -->
