@@ -41,7 +41,6 @@ form {
 }
 
 label {
-  font-size: 18px;
   width: 100%;
   max-width: 500px;
   margin-top: 24px;
@@ -54,18 +53,15 @@ input {
   margin-top: 8px;
   padding: 12px;
   border-radius: 5px;
-  font-size: 18px;
 }
 
 textarea {
   margin-top: 8px;
   padding: 12px;
   border-radius: 5px;
-  font-size: 18px;
 }
 
 span {
-  font-size: 18px;
   width: 90%;
   text-align: center;
   /* background-color: antiquewhite; */

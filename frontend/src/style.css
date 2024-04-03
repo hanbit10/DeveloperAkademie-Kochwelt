@@ -57,6 +57,12 @@ span {
   margin-bottom: 3.2rem;
 }
 
+label,
+input,
+textarea {
+  font-size: 0.8rem;
+}
+
 button {
   background-color: rgb(0, 128, 0);
   color: white;
@@ -393,20 +399,15 @@ footer {
   opacity: 0;
 }
 
-.burger-button-minus:hover  :is(.top, .bottom) {
-
+.burger-button-minus:hover :is(.top, .bottom) {
   y: 45;
 }
 
-
 .d-none {
   display: none;
-
-  
 }
 
 @media (1200px < width) {
-
   .content-1,
   .content-2,
   .content-3 {
