@@ -13,7 +13,26 @@ async function includeHTML() {
 }
 
 
+
 function show_hide(id) {
-    document.getElementById(id).classList.toggle('d-none');
-    
+  document.getElementById(id).classList.toggle('d-none');
+
 }
+
+
+
+
+function showMinus() {
+
+
+  document.getElementById('burgerMenu').classList.replace('burger-button-minus');
+
+}
+document.getElementById("burgerMenu").addEventListener("click", showMinus);
+/* function show_hide(id) {
+  document.getElementById(id).classList.toggle('d-none');
+  
+}
+
+
+ */

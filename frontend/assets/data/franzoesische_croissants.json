@@ -1,0 +1,62 @@
+{
+  "dish_name": "Französische Croissants",
+  "pic_dish": "./img/croissant.jpg",
+  "cooking_time1": "90 Minuten",
+  "cooking_time2": "2 Tage",
+  "cooking_difficulty": "Mittelschwer",
+  "rezept_date": "01.04.2024",
+  "zutaten": [
+    "Weizenmehl (Type 65 oder 550)",
+    "Zucker",
+    "Ei (mittelgroß)",
+    "Hefe",
+    "Butter",
+    "Wasser",
+    "Butter",
+    "Mehl"
+    
+  ],
+
+
+  "mengen": [
+    "500 g ",
+    "50 g",
+    "1",
+    "10 g",
+    "20 g",
+    "210 ml",
+    "225 g",
+    "25 g"
+  ],
+  "total_cooking_time": "90 Minuten plus plus 2 Tage zur Vorbereitung und Ruhezeit für den Teig",
+  "preparation_instructions":
+  "Alle Zutaten für den Grundteig in die Küchenmaschine geben und für 3 Minuten im langsamen und für 8 Minuten im schnellen Gang miteinander verkneten.
+  Tipp: Das zugeführte Wasser sollte nicht mehr als 15° C haben. Der Teig sollte kalt geführt werden.
+  Nun den Teig für mindestens 3 bis 5 Stunden abgedeckt kalt stellen – am besten aber über Nacht.
+  
+  Jetzt die Butterplatte vorbereiten:
+  Dafür die Butter direkt aus dem Kühlschrank nehmen und mit dem Mehl vermengen.
+  Eine Platte formen (ca. die Form und Größe einer Tafel Schokolade) und ebenfalls in den Kühlschrank geben.
+  
+  Nach der Ruhezeit alles aus dem Kühlschrank nehmen und die Butterplatte auf ca. 15 x 25 cm ausrollen.
+  Den Teig auf die gleiche Breite, aber die doppelte Länge ausrollen.
+  Jetzt die Butterplatte auf den ausgerollten Teig legen und die Butter in den Teig gut einschlagen.
+  Nun das Butter-Teig-Gemisch auf 60 x 20 cm ausrollen. Tipp: Sehr gleichmäßig und rechteckig ausrollen.
+  Dann ein Drittel des Teiges zur Mitte hin einschlagen und von oben das andere Drittel darüber legen.
+  Es entstehen drei Lagen Teig. Das nennt man Tourieren. Tipp: Ordentlich arbeiten
+  
+  Das Ganze nochmal wiederholen und den Teig für 30 Minuten zurück in den Kühlschrank stellen.
+  Nach den 30 Minuten das Ganze ein letztes Mal wiederholen und dann wieder in den Kühlschrank stellen.
+  Jetzt den Teig wieder ausrollen auf eine Bahn mit einer Höhe von ca. 18 cm.
+  Dann die Teigbahn in 13 bis 15 cm breite Abschnitte am unteren Ende einteilen.
+  Am oberen Ende dasselbe machen, aber auf die Mitte der unteren Einteilung versetzt.
+  Jetzt alles mit dem Pizzaroller zu Dreiecken schneiden.
+  
+  Formen:
+  Ein Dreieck dazu nehmen und es aufrollen. Dabei die Spitze kräftig ziehen, sodass sich das Teigstück beim Rollen etwas verlängert.
+  Halbmondförmig formen und wieder über Nacht in den Kühlschrank stellen.
+  Am nächsten Tag die Croissants aus dem Kühlschrank nehmen, mit Ei bestreichen und für 1 bis 3 Stunden bei Raumtemperatur (am besten jedoch 25 bis 28° C) gehen lassen.
+  Den Ofen auf 200° C Ober-/Unterhitze vorheizen und dann für 20 bis 22 Minuten backen. ",
+  "creator_pic": "./img/profile.png",
+  "creator_name": "???"
+}

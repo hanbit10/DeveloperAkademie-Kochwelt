@@ -334,10 +334,6 @@ footer {
   gap: 0.6rem;
 }
 
-.d-none {
-  display: none;
-}
-
 .nav-query-a a {
   color: black;
   font-weight: bold;
@@ -385,19 +381,32 @@ footer {
   y: 45;
 }
 
-.burger-button[aria-expanded="true"] .top {
-  rotate: 45deg;
+.burger-button:hover .top {
+  rotate: 90deg;
 }
 
-.burger-button[aria-expanded="true"] .top {
+/* .burger-button:hover .middle {
+  
+}  */
+
+.burger-button:hover .bottom {
   opacity: 0;
 }
 
-.burger-button[aria-expanded="true"] .bottom {
-  rotate: -45deg;
+.burger-button-minus:hover  :is(.top, .bottom) {
+
+  y: 45;
+}
+
+
+.d-none {
+  display: none;
+
+  
 }
 
 @media (1200px < width) {
+
   .content-1,
   .content-2,
   .content-3 {

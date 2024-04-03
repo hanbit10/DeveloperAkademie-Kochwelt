@@ -1,10 +1,10 @@
 {
   "dish_name": "Bulgogi",
   "pic_dish": "/frontend/assets/img/Beef-Bulgogi.jpg",
-  "cooking_time1": "ca. 60 Minuten",
-  "cooking_time2": "ca. 60 Minuten",
-  "cooking_difficulty": "Einfach",
-  "rezept_date": "24.03.2024",
+  "cooking_time1": "<img class='img_trivial' src='/frontend/assets/img/icons/clock-regular.svg'>ca. 60 Minuten",
+  "cooking_time2": "<img class='img_trivial' src='/frontend/assets/img/icons/clock-regular.svg'>ca. 60 Minuten",
+  "cooking_difficulty": "<img class='img_trivial' src='/frontend/assets/img/icons/brain-solid.svg'>Einfach",
+  "rezept_date": "<img class='img_trivial' src='/frontend/assets/img/icons/calendar-alt-regular.svg'>24.03.2024",
   "zutaten": [
     "g Rinderfilet",
     "g Reis",
@@ -31,7 +31,7 @@
     "1",
     "1"
   ],
-  "total_cooking_time": "ca. 90 Minuten",
+  "total_cooking_time": "<img class='img_trivial' src='/frontend/assets/img/icons/clock-regular.svg'>ca. 90 Minuten",
   "preparation_instructions": "Zuerst schneide Rinderfilet in dünnen Scheiben. Danach schneide Zwiebeln in Streifen und Frülingszweibeln in Ringscheiben. Alles beiseitestellen. Dann bereite Marinade aus pürierter Nashibirne, Zwiebel, Ingwer, Knoblauch, Sojasauce, Zucker, Sesamöl und schwarzen Pfeffer zu. Marinade über das Fleisch geben und, vorbereitetes Gemüse dazugeben und für eine Stunde im Kühlschrank stellen. Reis nach Packungsanweisung zubereiten. Anschließend brate das marinierte Fleisch in einer heißen Grillpfanne, bis es an den Rändern karamellisiert ist. Servieren Sie das Bulgogi auf dem Reis. Bulgogi mit Sesam bestreuen und genießen Sie es!",
   "creator_pic": "./img/profile.png",
   "creator_name": "Hanbit"
