@@ -327,6 +327,10 @@ footer {
   aspect-ratio: 1/1;
 }
 
+.nav-query {
+  width: 130px;
+}
+
 .nav-query,
 .nav-query-a {
   display: flex;
