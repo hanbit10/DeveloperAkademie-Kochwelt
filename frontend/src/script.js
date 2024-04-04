@@ -16,10 +16,9 @@ async function includeHTML() {
 
 function show_hide(id) {
   document.getElementById(id).classList.toggle('d-none');
-
+  document.getElementById('burgerMenu').classList.toggle('burger-button-minus');
+  document.getElementById('burgerMenu').classList.toggle('burger-button');
 }
-
-
 
 
 function showMinus() {

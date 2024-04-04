@@ -61,11 +61,13 @@ span {
   font-size: 0.8rem;
   margin-bottom: 3.2rem;
 }
+
 label,
 input,
 textarea {
   font-size: 0.8rem;
 }
+
 button {
   background-color: rgb(0, 128, 0);
   color: white;
@@ -77,6 +79,7 @@ button {
 }
 
 header {
+  /*  background-color: pink;  */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -86,6 +89,7 @@ header {
 }
 
 .header {
+  /* background-color: aqua; */
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -351,7 +355,7 @@ footer {
   padding-right: 0.56rem;
 }
 
-/*  ::::::::::   burger menu   :::::::::::::     */
+/*  ::::::::::::::   burger menu   ::::::::::::::::     */
 .burger {
   background: transparent;
   width: 50px;
@@ -370,14 +374,16 @@ footer {
   fill: #008000;
 }
 
-.burger-button {
+.burger-button,
+.burger-button-minus {
   background: transparent;
   fill: black;
   padding: 0px;
   margin: 0px;
 }
 
-.burger-button .line {
+.burger-button .line,
+.burger-button-minus .line {
   transition: 0.4s;
   transform-origin: center;
 }
