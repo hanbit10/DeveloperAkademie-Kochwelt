@@ -1,6 +1,18 @@
 @font-face {
+  font-family: RalewayBold;
+  src: url(/frontend/assets/fonts/raleway.bold.ttf);
+}
+
+@font-face {
   font-family: Raleway;
   src: url(/frontend/assets/fonts/Raleway-Regular.ttf);
+}
+
+body {
+  min-height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: Raleway, sans-serif;
 }
 
 html {
@@ -33,13 +45,6 @@ html {
   box-sizing: border-box;
 }
 
-body {
-  min-height: 100%;
-  margin: 0px;
-  padding: 0px;
-  font-family: Raleway, sans-serif;
-}
-
 h1 {
   font-size: 36px;
   margin-bottom: 16px;
@@ -56,13 +61,11 @@ span {
   font-size: 0.8rem;
   margin-bottom: 3.2rem;
 }
-
 label,
 input,
 textarea {
   font-size: 0.8rem;
 }
-
 button {
   background-color: rgb(0, 128, 0);
   color: white;
@@ -74,16 +77,15 @@ button {
 }
 
 header {
-  /*  background-color: pink;  */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: RalewayBold, sans-serif;
   box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.2);
 }
 
 .header {
-  /* background-color: aqua; */
   width: 80%;
   display: flex;
   justify-content: space-between;
@@ -108,7 +110,6 @@ nav {
 
 nav a {
   color: black;
-  font-weight: bold;
   font-size: small;
   text-decoration: none;
   padding-bottom: 0.3rem;
@@ -214,7 +215,6 @@ nav a:hover {
   gap: 0.2rem;
   color: black;
   font-size: 0.8rem;
-  font-weight: bold;
 }
 
 .quick-link img {
@@ -327,10 +327,6 @@ footer {
   aspect-ratio: 1/1;
 }
 
-.nav-query {
-  width: 130px;
-}
-
 .nav-query,
 .nav-query-a {
   display: flex;
@@ -346,7 +342,6 @@ footer {
 
 .nav-query-a a {
   color: black;
-  font-weight: bold;
   font-size: small;
   text-decoration: none;
 }

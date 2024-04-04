@@ -1,0 +1,49 @@
+    <!-- Name des Gerichts, Bild und Trivial -->
+    <div>
+      <div id="main">
+        <h1 id="dish_name">Bulgogi</h1>
+        <div id="pic_dish" style="background-image: url(&quot;/frontend/assets/img/Beef-Bulgogi.jpg&quot;);"></div>
+        <div class="trivial_dish">
+          <div id="cooking_time1"><img class="img_trivial" src="/frontend/assets/img/icons/clock-regular.svg">ca. 60 Minuten</div>
+          <div id="cooking_difficulty"><img class="img_trivial" src="/frontend/assets/img/icons/brain-solid.svg">Einfach</div>
+          <div id="rezept_date"><img class="img_trivial" src="/frontend/assets/img/icons/calendar-alt-regular.svg">24.03.2024</div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Tabelle mit den Zutaten und mengen -->
+    <table>
+      <tbody id="table">
+        <tr>
+          <td>
+            <!-- Input für Portionen und zum berechnen  -->
+            <div>
+              <span>Zutaten für </span><input type="number" min="1" max="8" value="1" id="portionen" oninput="validity.valid||(value='');" required="">
+              <button id="portion" onclick="load_element_table('/frontend/assets/data/hanbit_rezept.json')">
+                Portionen
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+      <tbody id="table2"><tr><td>500 g Rinderfilet</td></tr><tr><td>200 g Reis</td></tr><tr><td>2 Frühlingszwiebeln</td></tr><tr><td>1 Zwiebel</td></tr><tr><td>0.5 Nashibirne</td></tr><tr><td>4 Knoblauchzehen</td></tr><tr><td>1 Ingwer</td></tr><tr><td>3 EL Sojasoße</td></tr><tr><td>2 EL brauner Zucker</td></tr><tr><td>1 EL Sesamöl</td></tr><tr><td>1 TL schwarzer Pfeffer</td></tr></tbody>
+    </table>
+    
+    <!-- Anleitung für die Zubereitung -->
+    <div>
+      <h2>Zubereitung</h2>
+      <div class="trivial_dish">
+        <div id="cooking_time2"><img class="img_trivial" src="/frontend/assets/img/icons/clock-regular.svg">ca. 60 Minuten</div>
+        <div id="total_cooking_time"><img class="img_trivial" src="/frontend/assets/img/icons/clock-regular.svg">ca. 90 Minuten</div>
+      </div>
+      <span id="preparation_instructions">Zuerst schneide Rinderfilet in dünnen Scheiben. Danach schneide Zwiebeln in Streifen und Frülingszweibeln in Ringscheiben. Alles beiseitestellen. Dann bereite Marinade aus pürierter Nashibirne, Zwiebel, Ingwer, Knoblauch, Sojasauce, Zucker, Sesamöl und schwarzen Pfeffer zu. Marinade über das Fleisch geben und, vorbereitetes Gemüse dazugeben und für eine Stunde im Kühlschrank stellen. Reis nach Packungsanweisung zubereiten. Anschließend brate das marinierte Fleisch in einer heißen Grillpfanne, bis es an den Rändern karamellisiert ist. Servieren Sie das Bulgogi auf dem Reis. Bulgogi mit Sesam bestreuen und genießen Sie es!</span>
+    </div>
+    
+    <!-- Angaben und Bildem vom Crator -->
+    <div>
+      <h3>Rezept erstellt von</h3>
+      <div class="creator">
+        <div id="creator_pic"></div>
+        <div id="creator_name">Hanbit</div>
+      </div>
+    </div>

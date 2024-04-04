@@ -5,9 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Kochwelt</title>
     <script src="/frontend/src/script.js"></script>
+    <link rel="stylesheet" href="/frontend/src/style.css" />
     <script src="/frontend/src/components/pages/recipe/recipe.js"></script>
     <link rel="icon" type="image/x-icon" href="/assets/img/logo_small.png" />
-    <link rel="stylesheet" href="/frontend/src/style.css" />
+
     <link rel="stylesheet" href="./recipe.css" />
   </head>
 
@@ -15,12 +16,13 @@
     section {
       padding-left: min(160px, 10%);
       padding-right: min(160px, 10%);
+      min-height: 100vh;
     }
   </style>
 
   <body>
     <header w3-include-html="/frontend/src/components/templates/header.html"></header>
-    <section w3-include-html="/frontend/src/components/templates/recipe.html"></section>
+    <section w3-include-html="/frontend/src/components/templates/recipe_jerwand.html"></section>
     <footer w3-include-html="/frontend/src/components/templates/footer.html"></footer>
   </body>
 

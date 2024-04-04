@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="./script.js"></script>
+  <script src="../src/components/pages/recipe/recipe.js"></script>
+  <link rel="icon" type="image/x-icon" href="../assets/img/logo_small.png" />
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="stylesheet" href="./components/pages/recipe/recipe.css"  />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+  <title>Kochwelt</title>
+</head>
+
+
+<body onload="includeHTML()">
+  <header w3-include-html="./components/templates/header.html"></header>
+  <section class="main"  onload="load_dish('../assets/data/franzoesische_croissants.json')">
+
+    
+    <!-- Name des Gerichts, Bild und Trivial -->
+    <div>
+      <div id="main">
+        <h1 id="dish_name">dish_name_text</h1>
+        <div id="pic_dish"></div>
+        <div class="trivial_dish">
+          <div id="cooking_time1">cooking_time</div>
+          <div id="cooking_difficulty">cooking_difficulty</div>
+          <div id="rezept_date">rezept_date</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tabelle mit den Zutaten und mengen -->
+    <table>
+      <tbody id="table">
+        <tr>
+          <td>
+            <!-- Input für Portionen und zum berechnen  -->
+            <div>
+              <span>Zutaten für </span><input type="number" min="1" max="8" placeholder="1" />
+              <button id="portion" onclick="load_dish('/frontend/assets/data/dany_rezept.json')">
+                Portionen
+              </button>
+            </div>
+          </td>
+        </tr>
+
+        <tr>
+          <td>2 Eier</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Anleitung für die Zubereitung -->
+    <div>
+      <h2>Zubereitung</h2>
+      <div class="trivial_dish">
+        <div id="cooking_time2">cooking_time</div>
+        <div id="total_cooking_time">total_cooking_time</div>
+      </div>
+      <span id="preparation_instructions">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ducimus
+        excepturi dicta molestias qui modi, tenetur, laudantium repellat quidem
+        voluptate, ad porro recusandae deserunt esse quibusdam illo. Quisquam,
+        exercitationem veritatis.</span>
+    </div>
+
+    <!-- Angaben und Bildem vom Crator -->
+    <div>
+      <h3>Rezept erstellt von</h3>
+      <div class="creator">
+        <div id="creator_pic"></div>
+        <div id="creator_name">Name</div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </section>
+
+
+
+
+  <footer w3-include-html="./components/templates/footer.html"></footer>
+</body>
+
+</html>
