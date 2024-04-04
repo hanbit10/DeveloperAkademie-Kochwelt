@@ -340,6 +340,7 @@ footer {
 }
 
 .nav-query-a {
+  width: 150px;
   text-align: right;
   gap: 0.6rem;
 }
